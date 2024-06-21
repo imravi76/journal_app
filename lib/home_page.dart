@@ -72,7 +72,7 @@ class _HomePageState extends State<HomePage> {
               padding: EdgeInsets.all(10.0),
               child: WarningSign(),
             ),
-            Expanded(
+            Flexible(
               child: Container(
                 padding: const EdgeInsets.only(left: 30, right: 10, bottom: 8),
                 child: Row(

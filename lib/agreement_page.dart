@@ -17,6 +17,7 @@ class _AgreementPageState extends State<AgreementPage> {
     return Scaffold(
       body: SingleChildScrollView(
         child: Container(
+          height: MediaQuery.of(context).size.height * 1.0,
           decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors:
